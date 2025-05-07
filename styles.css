@@ -1,6 +1,9 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: gray;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: larger;
 }
 
 .header {
@@ -19,12 +22,13 @@ nav a {
 
 .body {
   border: 5px solid black;
-  padding-left: 25px;
-  padding-right: 25px;
-  text-align: center;
 }
 
 a:hover {
-  background-color: red;
+  background-color: white;
   transition: 0.5s;
+}
+
+div {
+  padding: 5%;
 }
