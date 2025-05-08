@@ -32,3 +32,8 @@ a:hover {
 div {
   padding: 5%;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
