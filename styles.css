@@ -1,17 +1,25 @@
+/* Style <body> */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: gray;
+  background-color: palevioletred;
   padding-left: 20%;
   padding-right: 20%;
   font-size: larger;
 }
 
+/* Style .body class */
+.body {
+  border: 5px solid black;
+}
+
+/* Style .header class */
 .header {
   border: 5px solid black;
   padding: 25px;
   text-align: center;
 }
 
+/* Style <a> in <nav> */
 nav a {
   color: black;
   border-radius: 10px;
@@ -20,19 +28,18 @@ nav a {
   padding: 10px;
 }
 
-.body {
-  border: 5px solid black;
-}
-
+/* Add hover effects on links */
 a:hover {
   background-color: white;
-  transition: 0.5s;
+  transition: 0.25s;
 }
 
+/* Add padding on <divs> */
 div {
   padding: 5%;
 }
 
+/* Make images responsive */
 img {
   max-width: 100%;
   height: auto;
