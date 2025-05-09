@@ -1,0 +1,46 @@
+/* Style <body> */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: gray;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: larger;
+}
+
+/* Add border to "header" class and style it */
+.header {
+  border: 5px solid black;
+  padding: 25px;
+  text-align: center;
+}
+
+/* Style nav bar */
+nav a {
+  color: black;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Add borders on "body" class */
+.body {
+  border: 5px solid black;
+}
+
+/* Add hover effect on <a>s */
+a:hover {
+  background-color: white;
+  transition: 0.5s;
+}
+
+/* Add padding on <div>s */
+div {
+  padding: 5%;
+}
+
+/* Size <img>s */
+img {
+  max-width: 100%;
+  height: auto;
+}
